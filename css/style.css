@@ -5,6 +5,16 @@ body {
 
 /* Containers */
 
+.container-wrapper {
+    
+}
+
+.container-wrapper--red {
+    background-color: #ca5200;
+    color: white;
+    padding-bottom: 75px;
+}
+
 .alert-container {}
 
 .callout-container {
@@ -31,7 +41,10 @@ body {
     background-color: rgba(0, 0, 0, 0.5)
 }
 
-.quotes-container {}
+.quotes-container {
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
 
 .features-container {}
 
@@ -93,12 +106,12 @@ body {
     border: 0;
     border-radius: 16px;
     width: 100px;
-    background-color: #ff6305;
+    background-color: #ca5200;
     color: white;
 }
 
 .navbar-btn:hover {
-    background-color: #d14f00;
+    background-color: #ca5200;
     border-color: #d14f00;
     color: white;
 }
@@ -130,10 +143,15 @@ body {
     height: 5px;
     width: 75px;
     border: 0;
+    background-color: #444;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider-orange {
-    background-color: #ff6305;
+    background-color: #ca5200;
 }
 
 .block-divider-short {
@@ -151,8 +169,8 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #ff6305;
-    border-color: #ff6305;
+    background-color: #ca5200;
+    border-color: #ca5200;
 
 }
 
@@ -181,4 +199,48 @@ body {
     border: 1px solid transparent;
     border-radius: 0;
     
+}
+
+/* Page Headers */
+
+.page-header {
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+blockquote .quote {
+    border-left: 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ca5200;
 }
